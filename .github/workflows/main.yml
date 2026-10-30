@@ -27,7 +27,7 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         # If you don't have a requirements.txt file yet, uncomment the line below to install pandas:
-        # pip install pandas
+        pip install pandas
 
     # Step 4: Run the second script (which imports the first)
     - name: Execute Script B
