@@ -1,4 +1,4 @@
-python
+
 # script_a.py
 import pandas as pd
 
